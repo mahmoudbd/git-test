@@ -1,0 +1,39 @@
+echo "Hanbing" > Group1.txt
+echo "Amina" >> Group1.txt
+echo "Mahmoud" >> Group1.txt
+echo "Jalal" >> Group1.txt
+
+cat -n Group1.txt   to view it
+
+echo "Naji" > Group2.txt
+echo "Ammar" >> Group2.txt
+echo "Wasem" >> Group2.txt
+echo "Abuzer" >> Group2.txt
+
+cat -n Group2.txt   to view it
+
+
+echo "Dima" > Group3.txt
+echo "Anwar" >> Group3.txt
+echo "Hani" >> Group3.txt
+echo "Ramzi" >> Group3.txt
+
+cat -n Group3.txt   to view it
+
+
+echo "Ali" > Group4.txt
+echo "Ibrahim" >> Group4.txt
+echo "Abdulkadir" >> Group4.txt
+echo "Ahmet" >> Group4.txt
+
+cat -n Group4.txt   to view it
+
+I can also use another method example 
+
+cat > Group1.txt
+Hanbing
+Amina
+Mahmoud
+Jalal
+
+Then ctrl+d
